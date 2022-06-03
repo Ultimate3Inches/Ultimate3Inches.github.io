@@ -9,8 +9,7 @@ header {
     padding: 5px;
 }
 
-  
-  nav li {
+nav li {
     color: white;
     display: inline-block;
     min-width: 33%;
@@ -37,7 +36,7 @@ p {
     text-shadow: 5px 5px black;
 }
 
-img {
+.icecream {
   display: block;
   margin-left: auto;
   margin-right: auto;
