@@ -123,8 +123,8 @@ tr {
   background-color: cyan;
 }
 
-.subjects {
-
+#freetochoose {
+  background-color: aquamarine;
 }
 
 /*old box codes
@@ -193,6 +193,7 @@ end*/
   margin-bottom: 1%;
   background-color: white;
 }
+
 .container .fullstack-container h4 {
   background-color: #728FCE;
   border: solid 1px #728FCE;
@@ -239,8 +240,6 @@ end*/
   margin-top: 4px;
 }
 
-
-
 .button-panel {
   margin-left: auto;
   margin-right: auto;
@@ -271,7 +270,6 @@ end*/
   color: white;
 }
 
-
 .button:hover {
   font-weight: 600;
   cursor: pointer;
@@ -286,7 +284,7 @@ end*/
 
 footer {
   position: fixed;
-  height: 60px;
+  height: 50px;
   background-color: black;
   bottom: 0px;
   left: 0px;
