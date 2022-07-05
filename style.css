@@ -27,7 +27,7 @@ body {
   font-size: 20px;
   background-image: url('/happy-ice-cream.gif');
   background-repeat: repeat;
-  background-color: teal;
+  background-color: white;
   background-size: 500px;
 
 	-webkit-animation-name: MOVE-BG;
@@ -298,6 +298,6 @@ footer {
 footer p {
   text-shadow: 1px 1px white;
   color: red;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
 }
