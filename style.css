@@ -25,7 +25,7 @@ header {
 
 body {
   font-size: 20px;
-  background-image: url('/resources/happy-ice-cream.gif');
+  background-image: url('/happy-ice-cream.gif');
   background-repeat: repeat;
   background-color: #CCC;
   background-size: 500px;
