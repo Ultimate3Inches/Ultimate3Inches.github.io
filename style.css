@@ -25,13 +25,13 @@ header {
 
 body {
   font-size: 20px;
-  background-image: url('https://ultimate3inches.github.io//happy-ice-cream.gif');
+  background-image: url('/happy-ice-cream.gif');
   background-repeat: repeat;
-  background-color: #CCC;
+  background-color: teal;
   background-size: 500px;
 
 	-webkit-animation-name: MOVE-BG;
-	-webkit-animation-duration: 80s;
+	-webkit-animation-duration: 120s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinite;
 }
@@ -48,88 +48,112 @@ nav li {
 h1 {
     color: red;
     text-align: center;
-    padding-top: 30px;
-    font-size: 500%;
+    padding-top: 50px;
+    font-size: 120px;
     font-weight: lighter;
     text-shadow: .03em .03em black;
 }
 
-h2 {
-    text-align: center;
-    font-size: 50px;
-    color: red;
-    stroke: black 1px solid;
-    text-shadow: .03em .03em black;
-}
-
-
 h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-decoration: underline;
+  text-shadow: 0.03em .03em white;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   letter-spacing: 1px;
-  text-shadow: .03em .03em white;
+  font-size: 40px;
 }
 
+
+table {
+  border: 2px solid black;
+  border-radius: 10px;
+  line-height: 40px;
+  width: 90%;
+  background-color: white;
+}
+
+th {
+  width: 10%;
+  font-size: 30px;
+}
+
+tr {
+  width: 00px;
+}
 
 .schedules {
   display: block;
   margin-top: 10px;
-  padding-left: 3.5em;
-  padding-right: auto;
   margin-left: auto;
   margin-right: auto;
-  width: 350px;
   text-align: center;
   letter-spacing: 1px;
   font-weight: 100;
   text-shadow: .03em .03em white;
+}
 
+#fullstack,
+#cs50,
+#gaming,
+#design {
+  font-weight: bold;
+}
+
+#fullstack {
+  background-color: #728FCE;
+}
+
+#cs50 {
+  background-color: lightgreen;
+}
+
+#gaming {
+  background-color: pink;
+}
+
+#design {
+  background-color: lightsteelblue;
+}
+
+#freeproject {
+  background-color: cyan;
 }
 
 .subjects {
-margin: 10px 0;
-text-decoration: underline;
-text-shadow: 0.03em .03em white;
+
 }
 
+/*old box codes*/
+
 .row {
-display: inline;
-margin-left: 5px;
-margin-right: 5px;
-letter-spacing: .2px;
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+  letter-spacing: .2px;
 }
 
 
 .column {
-display: inline-flex;
-margin-left: 1%;
-margin-bottom: 70px;
-width: 23.535%;
-min-width: fit-content;
-border: 2px solid purple;
-border-radius: 5px;
-background-color: white;
-text-shadow: 1px 1px white;
+  display: inline-flex;
+  margin-left: 1%;
+  margin-bottom: 70px;
+  width: 23.535%;
+  min-width: fit-content;
+  border: 2px solid purple;
+  border-radius: 5px;
+  background-color: white;
+  text-shadow: 1px 1px white;
 }
 
-
+/*end*/
 
 #havenotlearn {
-color: gray;
-opacity: 0.7;
-}
-
-footer {
-  position: fixed;
-  height: 60px;
-  background-color: black;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
-  padding-bottom: 10px;
-  
+  color: gray;
+  opacity: 0.7;
 }
 
 .container {
@@ -139,24 +163,22 @@ footer {
   overflow: auto;
   line-height: 22px;
   letter-spacing: .05em;
+  width: 97%;
 }
 
-.container h4 {
-  background-color: #728FCE;
-  border: solid 1px #728FCE;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  font-size: 20px;
-  text-shadow: 0.03em 0.03em white;
-  padding: 2px
+.fullstack-container {
+  display: inline-block;
+  width: 20%;
+  min-width: 200px;
+  border: 2px black solid;
+  border-radius: 10px;
+  vertical-align: top;
+  height: 150px;
+  margin-left: 0px;
+  margin-bottom: 1%;
+  background-color: white;
 }
 
-.container p {
-  font-size: 18px;
-  font-weight: lighter;
-}
-
-.fullstack-container,
 .cs50-container,
 .gaming-container,
 .design-container {
@@ -167,10 +189,57 @@ footer {
   border-radius: 10px;
   vertical-align: top;
   height: 150px;
-  margin-left: 3%;
+  margin-left: 4%;
   margin-bottom: 1%;
   background-color: white;
 }
+.container .fullstack-container h4 {
+  background-color: #728FCE;
+  border: solid 1px #728FCE;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 20px;
+  text-shadow: 0.03em 0.03em white;
+  padding: 2px;
+}
+
+.container .cs50-container h4 {
+  background-color: lightgreen;
+  border: solid 1px lightgreen;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 20px;
+  text-shadow: 0.03em 0.03em white;
+  padding: 2px;
+}
+
+.container .gaming-container h4 {
+  background-color: pink;
+  border: solid 1px pink;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 20px;
+  text-shadow: 0.03em 0.03em white;
+  padding: 2px;
+}
+
+.container .design-container h4 {
+  background-color: lightsteelblue;
+  border: solid 1px lightsteelblue;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 20px;
+  text-shadow: .03em .03em white;
+  padding: 2px;
+}
+
+.container p {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 4px;
+}
+
+
 
 .button-panel {
   margin-left: auto;
@@ -186,8 +255,8 @@ footer {
 
 .button {
   text-align: center;
-  border: 2px solid lightblue;
-  background-color: lightblue;
+  border: 2px solid red;
+  background-color: red;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -197,6 +266,9 @@ footer {
   width: 330px;
   padding: auto;
   box-shadow: 2.4px 2.4px black;
+  font-size: 33px;
+  text-shadow: 0.04em .04em black;
+  color: white;
 }
 
 
@@ -208,7 +280,19 @@ footer {
 .button:active {
   font-weight: normal;
   box-shadow: none;
+  text-shadow: none;
   margin: 2.4px 0px 0px 2.4px;
+}
+
+footer {
+  position: fixed;
+  height: 60px;
+  background-color: black;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 footer p {
